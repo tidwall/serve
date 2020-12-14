@@ -63,6 +63,7 @@ func Serve(opts Options) {
 	} else {
 		startServerHTTP(opts)
 		startServerHTTPS(opts)
+		select {}
 	}
 }
 
