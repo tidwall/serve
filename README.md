@@ -2,6 +2,8 @@
 
 Just a simple http server for Go
 
+Includes autocert (Let's Encrypt) support
+
 ## Example
 
 ```go
